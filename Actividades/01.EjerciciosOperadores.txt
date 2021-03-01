@@ -1,0 +1,21 @@
+//Ej1. Calcular el perí­metro y área de un rectángulo dada su base y su altura.
+//Ej2. Dados los catetos de un triángulo rectángulo, calcular su hipotenusa. funcion sqrt()
+		//Nota: en online no funciona
+//Ej3. Dados dos números, mostrar la suma, resta, división y multiplicación de ambos.
+//Ej4. Escribir un programa que convierta un valor dado en grados Fahrenheit a grados 
+//	   Celsius.
+//Ej5. Calcular la media de tres números pedidos por teclado
+//Ej6. Un vendedor recibe un sueldo base mas un 10% extra por comision de sus ventas, 
+//	el vendedor desea saber cuanto dinero obtendrá por concepto de comisiones por 
+//	las tres ventas que realiza en el mes y el total que recibirá en el mes tomando 
+//	en cuenta su sueldo base y comisiones.
+//Ej7. Un alumno desea saber cual será su calificación final en la materia de IOS
+//	Dicha calificación se compone de los siguientes porcentajes:
+//	* 55% del promedio de sus tres calificaciones parciales.
+//	* 30% de la calificación del examen final.
+//	* 15% de la calificación de un trabajo final.
+//Ej8. Escribir un algoritmo para calcular la nota final de un estudiante, considerando que: 
+//	por cada respuesta correcta 5 puntos, por una incorrecta -1 y por respuestas en 
+//	blanco 0. Imprime el resultado obtenido por el estudiante.
+//Ej9. Calcula el sueldo de un trabajador, cuyo valor es su sueldo base más un numero de horas
+//extra trabajadas, pero teniendo en cuenta que el dicho numero de horas puede ser nulo

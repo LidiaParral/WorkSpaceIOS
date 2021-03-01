@@ -1,0 +1,7 @@
+Crear una página web que haga las funciones de una calculadora
+Intentar hacer las mayores funciones posibles
+
+-La página tendrá dos campos de texto, donde se introducen los valores.
+-La páginas tendra un campo select donde vendrán las operaciones matemáticas.
+-La página tendrá un campo de texto resultado.
+-La página tendrá un botón que ejecute la operación.

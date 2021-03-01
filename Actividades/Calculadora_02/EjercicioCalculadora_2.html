@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Calculadora</title>
+
+</head>
+
+<body>
+
+    <input id = "a" type="text" placeholder="Introduzca un número"/>
+    <input id = "b" type="text" placeholder="Introduzca un número"/>
+    <select id="op">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br><br>
+    <button id='calcular'>Calcular</button>   
+    <input id='r' type="text" placeholder="Resultado"/>
+
+    <script >
+        document.querySelector('#calcular').addEventListener('click', () =>{
+            const a = parseInt(document.querySelector('#a').value);
+            const b = parseInt(document.querySelector('#b').value);
+            const op = document.querySelector('#op').value;
+
+            let r;
+            if(op == '+'){
+                r = a + b;
+            }else if(op == '-'){
+                r = a - b;
+            }else if(op == '*'){
+                r = a * b;
+            }else if(op == '/'){
+                r = a / b;
+            }
+            console.log(r);
+            document.getElementById('r').value = r;
+        });
+       
+    </script>
+   
+    
+
+</body>
+</html>
